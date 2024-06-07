@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>CarMil</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Car's </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">AMG vs M</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Classes</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Our Products</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+           
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Find your dream </span>
+                        <h1 class="home__data-title">The car's <br> Most <b>Beautiful <br> Art </b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">M5 F90 Fastes sedan ever </span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title"> Mercedes AMG or <br> BMW M </h2>
+                        <p class="about__description"> You can endlessly argue what is better, everyone will find their own in these brands.
+                         Our opinion is that Mercedes is for show-off, and BMW is for everything. With BMW M you are always happy to drive
+                        </p>
+                        <a href="#" class="button">Read more </a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="discover section" id="discover">
+                <h2 class="section__title"> The best cars in their class<br> Top 5 of them</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sedan </h2>
+                                <span class="discover__description">M5 F90 in any variation</span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title"> Supercar</h2>
+                                <span class="discover__description">911(922) </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">HotHatch</h2>
+                                <span class="discover__description">Golf R 2024</span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">SUV</h2>
+                                <span class="discover__description">G63 AMG</span>
+                            </div>
+                        </div>
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover5.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">F-class </h2>
+                                <span class="discover__description">Rolls-Royce Ghost</span>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="experience section">
+                <h2 class="section__title">With Our GT3 <br> We Will show how great the porsche engineers </h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">Year</h2>
+                            <span class="experience__description">2023</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">3.2 second </h2>
+                            <span class="experience__description">0-100 kph <br> 100-200 7.2 second</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">510 H.P. </h2>
+                            <span class="experience__description">4.0-litre six-cylinder boxer engine <br> Aluminium horizontally opposed and naturally aspirated engine</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="video section">
+                <h2 class="section__title">Our trip Edit  </h2>
+
+                <div class="video__container container">
+                    <p class="video__description">100 on the dash get me close to God,We don't pray for love, we just pray for cars.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="place section" id="place">
+                <h2 class="section__title">And also Our Products</h2>
+
+                <div class="place__container container grid">
+                    
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Filming</h3>
+                                <span class="place__subtitle">With professional camera</span>
+                                <span class="place__price">$299</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="place__card">
+                        <img src="assets/img/place6.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Car detailing </h3>
+                                <span class="place__subtitle">Yasamal</span>
+                                <span class="place__price">$29</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+
+                    
+                    <div class="place__card">
+                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Test-Drives</h3>
+                                <span class="place__subtitle">Any car u want</span>
+                                <span class="place__price">$99-$5000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    
+                    <div class="place__card">
+                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Help for car search</h3>
+                                <span class="place__subtitle">we have more than 20 specialists </span>
+                                <span class="place__price">$49</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    
+                    <div class="place__card">
+                        <img src="assets/img/place1212.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">our merch</h3>
+                                <span class="place__subtitle">our new product</span>
+                                <span class="place__price">$19</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                   
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">100</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">LIMMA</h3>
+                                <span class="place__subtitle">join club </span>
+                                <span class="place__price">$1999</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+           
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title"> U can ask any <br> Question</h2>
+                        <p class="subscribe__description">First 10 question are free
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Why my wheel to noisy" class="subscribe__input">
+    
+                            <button class="button">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">About us</h3>
+                        <p class="footer__description">We can help with ur problem <br> any solution, 
+                            u can find there. <br> our social network below
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Contact with head</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Manager </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Rigth hand</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Owner Amil's Company </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Cooperate</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Vacance</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+               
+            
+            </div>
+        </footer>
+
+         
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
